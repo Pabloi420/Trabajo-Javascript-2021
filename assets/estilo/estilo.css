@@ -1,0 +1,173 @@
+.inicio {
+  background: url(../images/inicial.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+.inicio2 {
+  background-color: hsl(0, 0%, 17%);
+}
+.abril, h1, p, th, tr, thead {
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+.slogan {
+  font-size: 36px;
+}
+.copete {
+  font-size: 30px;
+}
+.contslogan {
+  height: 300px;
+  margin-top: 150px;
+}
+.destacado {
+  color: hsl(39, 100%, 50%);
+}
+#carouselExampleCaptions{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.fondojumbo {
+  background-image: url(../images/dark.png);
+  background-size: cover;
+}
+.resaltado {
+  color: #ffa500;
+}
+.bg-orange {
+  background-color: orange;
+  border-radius: 10px;
+}
+.row {
+  width: 100%;
+}
+.card {
+  height: 610px;
+}
+.card-body {
+  padding: 0.45rem;
+}
+.card-text {
+  color: hsl(0, 0%, 17%);
+}
+.card-img-top {
+  padding-top: 15px;
+}
+.container-fluid {
+  margin-top: 15px;
+}
+.icono {
+  height: 56px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.titular {
+  padding: 15px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.6);
+}
+.modal {
+  width: 65%;
+  height: 80%;
+  background-color: orange;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 25px;
+}
+.display-none {
+  display: none;
+}
+
+.myProgress {
+  width: 50%;
+  background-color: grey;
+  border-radius: 25px;
+}
+
+.myBar {
+  width: 1%;
+  height: 30px;
+  background-color: orange;
+  border-radius: 25px;
+}
+
+.marginButtom {
+  margin: 12px;
+}
+
+.containerInicial {
+  min-height: 500px;
+  text-align: center;
+}
+
+.halfWidht{
+  width: 50%;
+}
+
+@media (max-width: 540px) {
+  .imagen-titular, .imagen-resaltada {
+    width: 330px;
+  }
+  .inicio {
+    background-image: url(../images/inicialmenor.jpg);
+    margin-top: 100%;
+  }
+  .slogan {
+    font-size: 24px;
+  }
+  .lead {
+    margin-top: 100px;
+    margin-bottom: 5px;
+  }
+  .icono {
+    height: 56px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 10px
+  }
+
+
+}
+@media (max-width: 720px) {
+  .inicio {
+    background-image: url(../images/inicialmenor.jpg);}
+  .card {
+      margin-left: 35px;
+    }
+}
+@media (min-width: 720px) {
+  .jumbotron {
+    height: 600px;
+  }
+  .resaltado {
+    font-size: 80px;
+  }
+  .resaltado2 {
+    font-size: 48px;
+  }
+  .container {
+    margin: 15px;
+  }
+  .imagen-titular {
+    width: 400px;
+  }
+  .imagen-resaltada {
+  width: 800px;
+  }
+}
